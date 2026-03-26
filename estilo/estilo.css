@@ -81,6 +81,8 @@ main > article >h1, h2, h3, h4, h5, h6{
 main > article > h1.titulo-principal{
     text-align: center;
     font-size: 3em;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 main > article > h1.titulo-do-assunto{
     font-size: 2em;
@@ -105,10 +107,6 @@ main > article > ul{
 }
 main > article{
     padding: 20px;
-}
-img{
-    width: 50%;
-    padding: 0px 0px 25px 10px;
 }
 div.imagen-flex{
     display: flex;
@@ -202,3 +200,15 @@ aside{
     display: block;
     background-color: greenyellow;
 }
+.imagen-principal{
+    width: 100%;
+    display: block;   
+    margin: 20px auto; 
+    height: auto;
+}
+.imagen-icone-principal{
+   display: inline-block; 
+    vertical-align: middle;
+    width: 16%;
+    margin: 10px;
+        }

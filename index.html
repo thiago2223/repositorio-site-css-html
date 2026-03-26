@@ -10,25 +10,29 @@
             background-color: rgb(255, 248, 211);
         }
         main{
-            padding: 0px;  
+            padding: 0px;
+            min-width: 230px;
+            max-width: 1111px;  
         }
         article{
             background-color: rgb(255, 255, 255);
             border-bottom-left-radius: 5px;
             border-bottom-left-radius: 5px;
-            padding-bottom: 6px;
-        }
-        .imagen-icone-principal{
-            width: 16%;
-            padding: 15px;
-            margin-left: 200px;
-            margin-bottom: 10px;
-            background-color: rgb(209, 245, 173);
-            border-radius: 4px;
+            padding: 0px 5px 6px 5px;
         }
         p{
-            color: white;
+            color: rgb(8, 11, 57);
             font-family: Arial, Helvetica, sans-serif;
+        }
+        img#imagen-progamacao{
+          display: block;  
+          width: 70%;
+          margin: 20px auto;
+          padding: 0;
+        }
+        .logos{
+            text-align: center;
+            padding: 20px;
         }
     </style>
     <title>Site de teste</title>
@@ -45,9 +49,16 @@
     </nav>
     <main>
         <article> 
-                <a href="html-pagina/html-page.html"><img src="imagens/html5-logo.png" alt="Logo do HTML5" class="imagen-icone-principal"></a>
-                <img src="imagens/css-logo.png" alt="Logo da CSS3" class="imagen-icone-principal">
+            <h1 class="titulo-principal">Linguagens</h1>
+            <img src="imagens/programming.jpg" alt="" class="imagen-principal">
+            <br>
+                <div class="logos">
+                    <a href="html-pagina/html-page.html">
+                        <img src="imagens/html5-logo.png" alt="Logo do HTML5" class="imagen-icone-principal"></a>
+                        <img src="imagens/css-logo.png" alt="Logo da CSS3" class="imagen-icone-principal">
+                </div>
                 <hr>
+                <img src="imagens/imagen-progamacao.webp" alt="" id="imagen-progamacao">
         </article>
     </main>
       <aside>

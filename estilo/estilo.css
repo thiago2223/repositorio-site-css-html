@@ -101,9 +101,9 @@ main > article > p{
     line-height: 2em;
     font-weight: 300;
 }
-main > article > ul{
-    margin-left: 30px;
-    columns: 2;
+ul > li{
+    padding: 5px;
+    font-family: var(--fonte-paragrafo);
 }
 main > article{
     padding: 20px;
@@ -112,6 +112,9 @@ div.imagen-flex{
     display: flex;
     align-items: center;
     gap: 20px;
+}
+div.imagen-flex > img{
+    width: 60%;
 }
 div.imagen-flex > p{
     font-family: var(--fonte-paragrafo);
@@ -134,6 +137,13 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+}
+aside ul{
+    list-style-type: square;
+    color: white;
+}
+aside a{
+    color: white;
 }
 aside{
     background-color: var(--cor3);
@@ -207,8 +217,26 @@ aside{
     height: auto;
 }
 .imagen-icone-principal{
-   display: inline-block; 
+    display: inline-block; 
     vertical-align: middle;
-    width: 16%;
+    width: 20%;
+    height: 200px;
     margin: 10px;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: rgb(236, 236, 236);
         }
+ .html-assuntos{
+   
+    padding: 10px;    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 13%;
+    background-color: darksalmon;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    margin-bottom: 15px;
+        }
+
+

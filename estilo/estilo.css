@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -12,18 +13,22 @@
     --cor1: #152275;
     --cor2: #007bff;
     --cor3: #172A3E;
+    --cor4: black;
     --fonte-titulo: 'Ms Madi';
     --fonte-titulo-2-ou-normal: Montserrat;
     --fonte-titulo-3: Poppins;
     --fonte-padrao: Arial, Helvetica, Sans-serif;
     --fonte-paragrafo: Montserrat;
+    --fonte-handwriting: 'Mrs Saint Delafield';
 
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(0, 0, 0);
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    /*background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));*/
+    background-image: url(../imagens/imagen-fundo-inicio.jpg);
+    height: 150px;
     padding: 40px;
     text-align: center;
 }
@@ -45,7 +50,7 @@ header > p{
      text-shadow: 5px 6px 5px #00000073;
 }
 nav{
-    background-color: var(--cor1);
+    background-color: var(--cor4);
     padding: 15px 15px 5px 15px;
 }
 nav > a{
@@ -67,7 +72,7 @@ nav > a:hover > .tema-assunto{
 }
 main{
     margin: auto;
-    background-color: white;
+    background-color: rgb(0, 2, 33);
     padding: 20px;
     min-width: 230px;
     max-width: 1111px;
@@ -238,5 +243,9 @@ aside{
     text-align: center;
     margin-bottom: 15px;
         }
+.meu-nome{
+    font-family: var(--fonte-handwriting);
+    font-size: 3em;
+}
 
 
